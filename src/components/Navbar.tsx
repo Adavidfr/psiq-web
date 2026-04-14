@@ -18,7 +18,7 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <a href="#inicio" className="font-semibold tracking-tight text-slate-950">
-          Clínica de Confianza
+          Dra. Génesis Castillo
         </a>
 
         <nav className="hidden items-center gap-8 text-sm text-slate-700 md:flex">

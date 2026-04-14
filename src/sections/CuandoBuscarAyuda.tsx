@@ -1,8 +1,11 @@
-import { Section } from '../components/Section'
+import { Section } from "../components/Section";
 
 export function CuandoBuscarAyuda() {
   return (
-    <Section id="adolescentes" title="¿Cuándo es momento de buscar ayuda?">
+    <Section
+      id="adolescentes"
+      title="¿Cuándo es momento de buscar ayuda?"
+    >
       <ul className="space-y-3 text-slate-700 text-sm leading-7">
         <li>Cuando lo que sientes interfiere con tu vida diaria</li>
         <li>Cuando llevas tiempo sintiéndote mal y no mejora</li>
@@ -14,5 +17,5 @@ export function CuandoBuscarAyuda() {
         No necesitas estar “muy mal” para pedir ayuda.
       </p>
     </Section>
-  )
+  );
 }

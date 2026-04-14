@@ -1,9 +1,12 @@
-import { Button } from '../components/ui/Button'
-import heroImg from '../assets/hero.png'
+import { Button } from "../components/ui/Button";
+import heroImg from "../assets/images/hero.jpg";
 
 export function Hero() {
   return (
-    <section id="inicio" className="overflow-hidden bg-slate-50">
+    <section
+      id="inicio"
+      className="overflow-hidden bg-slate-50"
+    >
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="max-w-2xl">
@@ -15,7 +18,8 @@ export function Hero() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700 sm:text-xl">
               Atención en psiquiatría para adolescentes y adultos jóvenes.
-              Evaluación clara, tratamiento basado en evidencia y un espacio seguro para hablar de lo que estás viviendo.
+              Evaluación clara, tratamiento basado en evidencia y un espacio
+              seguro para hablar de lo que estás viviendo.
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Button>Agendar consulta</Button>
@@ -28,7 +32,7 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-4xl border border-slate-200 bg-white shadow-[0_36px_160px_-80px_rgba(15,23,42,0.35)]">
               <img
                 src={heroImg}
-                alt="Espacio clínico profesional con sensación de calma"
+                alt="Hero clínico con ambiente tranquilo"
                 className="h-full w-full object-cover"
               />
             </div>
@@ -36,5 +40,5 @@ export function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
